@@ -1,0 +1,10 @@
+	Seminat_Rho	Contr_Rho	Seminat_Vanzago	Contr_Vanzago	Seminat_Foppa	Contr_Foppa	Seminat_Aironi	Contr_Aironi	Seminat_Azzurro	Contr_Azzurro	Seminat_Lura	Contr_Lura	FWS_Merone	Contr_Merone	FWS_Capiago	Contr_Capiago	FWS_Carimate	Contr_Carimate	FWS_VillaG	Contr_VillaG	FWS_Mozzate	Contr_Mozzate	FWS_Gorla	Contr_Gorla
+Alauda_arvensis	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	13	0	0
+Anas_crecca	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	4	0	1	0
+Botaurus_stellaris	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+Chloris_chloris	1	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0
+Emberiza_citrinella	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+Emberiza_schoeniclus	3	1	4	1	1	1	0	0	0	0	9	1	1	0	0	1	5	1	0	1	3	3	4	1
+Netta_rufina	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Spatula_clypeata	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0
+Turdus_pilaris	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	2	0	0	0	0

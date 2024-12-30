@@ -1,0 +1,10 @@
+	Seminat_Rho	Contr_Rho	Seminat_Vanzago	Contr_Vanzago	Seminat_Foppa	Contr_Foppa	Seminat_Aironi	Contr_Aironi	Seminat_Azzurro	Contr_Azzurro	Seminat_Lura	Contr_Lura	FWS_Merone	Contr_Merone	FWS_Capiago	Contr_Capiago	FWS_Carimate	Contr_Carimate	FWS_VillaG	Contr_VillaG	FWS_Mozzate	Contr_Mozzate	FWS_Gorla	Contr_Gorla
+Anas_crecca	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	4	0	1	0
+Anas_platyrhynchos	4	0	31	0	20	0	10	0	6	0	11	0	16	4	1	0	13	0	0	0	30	0	5	0
+Fulica_atra	1	0	5	0	1	0	0	0	0	0	2	0	0	0	0	0	10	0	0	0	23	0	5	0
+Gallinago_gallinago	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0
+Gallinula_chloropus	4	2	1	0	22	1	1	0	1	0	30	0	0	1	1	0	15	1	0	0	26	0	8	0
+Netta_rufina	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Rallus_aquaticus	0	0	0	0	2	0	0	0	0	0	3	0	0	0	0	0	1	0	0	0	2	0	1	0
+Spatula_clypeata	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0
+Vanellus_vanellus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20	0	0

@@ -1,0 +1,10 @@
+	Seminat_Rho	Contr_Rho	Seminat_Vanzago	Contr_Vanzago	Seminat_Foppa	Contr_Foppa	Seminat_Aironi	Contr_Aironi	Seminat_Azzurro	Contr_Azzurro	Seminat_Lura	Contr_Lura	FWS_Merone	Contr_Merone	FWS_Capiago	Contr_Capiago	FWS_Carimate	Contr_Carimate	FWS_VillaG	Contr_VillaG	FWS_Mozzate	Contr_Mozzate	FWS_Gorla	Contr_Gorla	FWS_Limido	Contr_Limido	FWS_Pianbosco	Contr_Pianbosco	FWS_Castelnuovo	Contr_Castelnuovo
+Actitis_hypoleucos	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+Aix_galericulata	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Aix_sponsa	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Anas_crecca	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0
+Anas_platyrhynchos	8	5	8	0	9	2	0	0	6	0	8	1	11	0	0	0	10	7	0	0	35	0	15	6	6	0	1	0	1	0
+Fulica_atra	0	0	3	0	5	0	1	0	0	0	8	0	0	0	0	0	4	1	0	0	13	0	2	0	7	0	0	0	0	0
+Gallinula_chloropus	4	2	2	0	29	3	1	0	3	0	12	0	0	0	1	0	6	4	1	0	9	0	7	1	5	0	1	0	1	0
+Netta_rufina	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Spatula_clypeata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0
