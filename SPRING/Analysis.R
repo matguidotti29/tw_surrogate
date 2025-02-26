@@ -27,6 +27,10 @@ library(AER)
 library(hillR)
 #install.packages("performance",dependencies=T)
 library(performance)
+#install.packages("sf",dependencies=T)
+library(sf)
+#install.packages("spdep",dependencies=T)
+library(spdep)
 
 
 ### Load dataset
@@ -58,6 +62,32 @@ abbcove <-estimateD(abb,q=c(0,1,2),datatype="abundance",base="coverage",nboot=10
 #set.seed(123)
 #wet <-iNEXT(abbwet,q=0,endpoint=90,datatype="abundance")
 #ggiNEXT(wet, type=3, se=TRUE, color.var="Assemblage")+xlim(0,0.8413693)+theme(legend.position = "none")
+
+
+##############################MORAN TEST##############################
+
+
+shp <- st_read("C:\\Users\\darth\\Desktop\\MATTEO\\RICERCA\\Treatment Wetlands\\QGIS Primavera\\Plot 300x300\\Plot 300x300.shp")
+shp #not the same order of abbcove
+shp_ord <- shp[c(11,12,10,9,8,7,6,5,16,15,14,13,23,24,22,21,17,18,19,20,4,3,2,1,25,28,26,29,27,30), ]
+shp_ord
+shp_centroids <- st_centroid(shp_ord)
+coords <- st_coordinates(shp_centroids)
+coords
+nb <- dnearneigh(coords, d1 = 0, d2 = 5000)
+lw <- nb2listw(nb, style = "W")
+moran.test(abbcove[abbcove$Order.q==0,]$qD, lw, alternative = "two.sided", rank=T)
+moran.test(abbcove[abbcove$Order.q==1,]$qD, lw, alternative = "two.sided", rank=F)
+moran.test(abbcove[abbcove$Order.q==2,]$qD, lw, alternative = "two.sided", rank=F)
+
+shp_treat <-shp[c(11,10,8,6,16,14,23,22,17,19,4,2,25,26,27), ]
+shp_centrotreat <- st_centroid(shp_treat)
+coordstreat <- st_coordinates(shp_centrotreat)
+nbt <- dnearneigh(coordstreat, d1 = 0, d2 = 5000)
+lwt <- nb2listw(nbt, style = "W", zero.policy=T)
+moran.test(covewetS, lwt, alternative = "two.sided", rank=T)
+moran.test(covewetH, lwt, alternative = "two.sided", rank=F)
+moran.test(covewetD, lwt, alternative = "two.sided", rank=F)
 
 
 ##############################PAIRED TEST - WETLANDS VS CONTROL##############################
